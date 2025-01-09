@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Presentation>
+	<GISMap>
+		<Id>1736409102159</Id>
+		<Name><![CDATA[map]]></Name>
+		<X>0</X>
+		<Y>0</Y>
+		<Label>
+			<X>0</X>
+			<Y>-10</Y>
+		</Label>
+		<PublicFlag>true</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+		<EmbeddedIcon>false</EmbeddedIcon>
+		<Width>760</Width>
+		<Height>600</Height>
+		<GISShapes/>
+		<Latitude>24.690370430753372</Latitude>
+		<Longitude>46.74676897328982</Longitude>
+		<Scale>500000</Scale>
+		<BorderColor>-4144960</BorderColor>
+		<FillColor>-1</FillColor>
+		<ShowTiles>true</ShowTiles>
+		<TileURLProvider>ANYLOGIC</TileURLProvider>
+		<CustomTileURL>false</CustomTileURL>
+		<TileURL>https://a.tile.openstreetmap.org/[zoom]/[x]/[y].png</TileURL>
+		<RouteProviderType>WEB_SERVICE</RouteProviderType>
+		<RouteNotFound>CREATE_STRAIGHT_LINE</RouteNotFound>
+		<OnlineRouteProvider>ANYLOGIC</OnlineRouteProvider>
+		<TransportType>CAR</TransportType>
+		<RoutingMethod>FASTEST</RoutingMethod>
+		<PathfindingAlgorithm>DIJKSTRABI</PathfindingAlgorithm>
+		<CustomRouteProvider>false</CustomRouteProvider>
+		<RouteSourceResourceReference/>
+		<RouteGraphResourceReference/>
+		<MapScaleBasedGeneralization>true</MapScaleBasedGeneralization>
+		<AbsolutePrecisionGeneralization>1000</AbsolutePrecisionGeneralization>
+	</GISMap>
+</Presentation>
