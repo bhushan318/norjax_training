@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ActiveObjectClass>
-	<Id>1736409443213</Id>
-	<Name><![CDATA[Hospital]]></Name>
+	<Id>1736409946108</Id>
+	<Name><![CDATA[Patient]]></Name>
 	<Generic>false</Generic>
 	<GenericParameter>
-		<Id>1736409443219</Id>
-		<Name><![CDATA[1736409443219]]></Name>
+		<Id>1736409946114</Id>
+		<Name><![CDATA[1736409946114]]></Name>
 		<GenericParameterValue Class="CodeValue">
 			<Code><![CDATA[T extends Agent]]></Code>
 		</GenericParameterValue>
@@ -63,7 +63,7 @@
 	<DatasetsCreationProperties>
 		<AutoCreate>true</AutoCreate>
 		<OccurrenceAtTime>true</OccurrenceAtTime>
-		<OccurrenceDate>1736409600000</OccurrenceDate>
+		<OccurrenceDate>1736496000000</OccurrenceDate>
 		<OccurrenceTime Class="CodeUnitValue">
 			<Code><![CDATA[0]]></Code>
 			<Unit Class="TimeUnits">MINUTE</Unit>
@@ -74,7 +74,7 @@
 		</RecurrenceCode>
 	</DatasetsCreationProperties>
 	<ScaleRuler>
-		<Id>1736409443216</Id>
+		<Id>1736409946111</Id>
 		<Name><![CDATA[scale]]></Name>
 		<X>0</X>
 		<Y>-150</Y>
@@ -90,11 +90,11 @@
 		<Scale>10</Scale>
 		<InheritedFromParentAgentType>true</InheritedFromParentAgentType>
 	</ScaleRuler>
-	<CurrentLevel>1736409443220</CurrentLevel>
-	<ConnectionsId>1736409443214</ConnectionsId>
+	<CurrentLevel>1736409946115</CurrentLevel>
+	<ConnectionsId>1736409946109</ConnectionsId>
 	<AgentLinks>
 		<AgentLink>
-			<Id>1736409443214</Id>
+			<Id>1736409946109</Id>
 			<Name><![CDATA[connections]]></Name>
 			<X>50</X>
 			<Y>-50</Y>
@@ -117,28 +117,9 @@
 			<LineArrowPosition>END</LineArrowPosition>
 		</AgentLink>
 	</AgentLinks>
-	<ContainerLinks>
-		<ContainerLink>
-			<Id>1736409443297</Id>
-			<Name><![CDATA[main]]></Name>
-			<X>50</X>
-			<Y>-100</Y>
-			<Label>
-				<X>10</X>
-				<Y>0</Y>
-			</Label>
-			<PublicFlag>false</PublicFlag>
-			<PresentationFlag>true</PresentationFlag>
-			<ShowLabel>true</ShowLabel>
-			<ActiveObjectClass>
-				<PackageName>patient_hospital</PackageName>
-				<ClassName>Main</ClassName>
-			</ActiveObjectClass>
-		</ContainerLink>
-	</ContainerLinks>
 	<Presentation>
 		<Level>
-			<Id>1736409443220</Id>
+			<Id>1736409946115</Id>
 			<Name><![CDATA[level]]></Name>
 			<X>0</X>
 			<Y>0</Y>
