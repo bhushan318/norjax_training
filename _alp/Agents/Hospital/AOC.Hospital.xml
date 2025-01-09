@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ActiveObjectClass>
-	<Id>1736408585110</Id>
-	<Name><![CDATA[Main]]></Name>
+	<Id>1736409443213</Id>
+	<Name><![CDATA[Hospital]]></Name>
 	<Generic>false</Generic>
 	<GenericParameter>
-		<Id>1736408585116</Id>
-		<Name><![CDATA[1736408585116]]></Name>
+		<Id>1736409443219</Id>
+		<Name><![CDATA[1736409443219]]></Name>
 		<GenericParameterValue Class="CodeValue">
 			<Code><![CDATA[T extends Agent]]></Code>
 		</GenericParameterValue>
@@ -46,7 +46,7 @@
 			<Code><![CDATA[1.0]]></Code>
 			<Unit Class="TimeUnits">SECOND</Unit>
 		</StepDurationCode>
-		<SpaceType>GIS</SpaceType>
+		<SpaceType>CONTINUOUS</SpaceType>
 		<WidthCode>500</WidthCode>
 		<HeightCode>500</HeightCode>
 		<ZHeightCode>0</ZHeightCode>
@@ -74,7 +74,7 @@
 		</RecurrenceCode>
 	</DatasetsCreationProperties>
 	<ScaleRuler>
-		<Id>1736408585113</Id>
+		<Id>1736409443216</Id>
 		<Name><![CDATA[scale]]></Name>
 		<X>0</X>
 		<Y>-150</Y>
@@ -90,11 +90,11 @@
 		<Scale>10</Scale>
 		<InheritedFromParentAgentType>true</InheritedFromParentAgentType>
 	</ScaleRuler>
-	<CurrentLevel>1736408585117</CurrentLevel>
-	<ConnectionsId>1736408585111</ConnectionsId>
+	<CurrentLevel>1736409443220</CurrentLevel>
+	<ConnectionsId>1736409443214</ConnectionsId>
 	<AgentLinks>
 		<AgentLink>
-			<Id>1736408585111</Id>
+			<Id>1736409443214</Id>
 			<Name><![CDATA[connections]]></Name>
 			<X>50</X>
 			<Y>-50</Y>
@@ -117,10 +117,28 @@
 			<LineArrowPosition>END</LineArrowPosition>
 		</AgentLink>
 	</AgentLinks>
-	<EmbeddedObjects xmlns:al="http://anylogic.com"/>
+	<ContainerLinks>
+		<ContainerLink>
+			<Id>1736409443297</Id>
+			<Name><![CDATA[main]]></Name>
+			<X>50</X>
+			<Y>-100</Y>
+			<Label>
+				<X>10</X>
+				<Y>0</Y>
+			</Label>
+			<PublicFlag>false</PublicFlag>
+			<PresentationFlag>true</PresentationFlag>
+			<ShowLabel>true</ShowLabel>
+			<ActiveObjectClass>
+				<PackageName>patient_hospital</PackageName>
+				<ClassName>Main</ClassName>
+			</ActiveObjectClass>
+		</ContainerLink>
+	</ContainerLinks>
 	<Presentation>
 		<Level>
-			<Id>1736408585117</Id>
+			<Id>1736409443220</Id>
 			<Name><![CDATA[level]]></Name>
 			<X>0</X>
 			<Y>0</Y>
@@ -136,27 +154,5 @@
 			<LevelVisibility>DIM_NON_CURRENT</LevelVisibility>
 			<Presentation xmlns:al="http://anylogic.com"/>
 		</Level>
-		<EmbeddedObjectPresentation>
-			<Id>1736409443278</Id>
-			<Name><![CDATA[hospitals_presentation]]></Name>
-			<X>190</X>
-			<Y>700</Y>
-			<Label>
-				<X>10</X>
-				<Y>0</Y>
-			</Label>
-			<PublicFlag>true</PublicFlag>
-			<PresentationFlag>true</PresentationFlag>
-			<ShowLabel>false</ShowLabel>
-			<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-			<EmbeddedIcon>false</EmbeddedIcon>
-			<Z>0</Z>
-			<Rotation>0.0</Rotation>
-			<ScaleType>AUTOMATICALLY_CALCULATED</ScaleType>
-			<GISScaleForRealEmbeddedObjectPresentationSize>1000</GISScaleForRealEmbeddedObjectPresentationSize>
-			<GISScaleForFixedEmbeddedObjectPresentationSize>1000000000</GISScaleForFixedEmbeddedObjectPresentationSize>
-			<Latitude>24.690370430753372</Latitude>
-			<Longitude>46.74676897328982</Longitude>
-		</EmbeddedObjectPresentation>
 	</Presentation>
 </ActiveObjectClass>

@@ -37,5 +37,47 @@
 		<RouteGraphResourceReference/>
 		<MapScaleBasedGeneralization>true</MapScaleBasedGeneralization>
 		<AbsolutePrecisionGeneralization>1000</AbsolutePrecisionGeneralization>
+		<Presentation>
+			<GISRegion>
+				<FillColor>2144175423</FillColor>
+				<FillMaterial>null</FillMaterial>
+				<Id>1736409368871</Id>
+				<Name><![CDATA[gisRegion]]></Name>
+				<X>259</X>
+				<Y>275</Y>
+				<Label>
+					<X>10</X>
+					<Y>0</Y>
+				</Label>
+				<PublicFlag>true</PublicFlag>
+				<PresentationFlag>true</PresentationFlag>
+				<ShowLabel>false</ShowLabel>
+				<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+				<Z>0</Z>
+				<LineColor>-5952982</LineColor>
+				<LineMaterial>null</LineMaterial>
+				<LineWidth>1</LineWidth>
+				<LineStyle>DASHED</LineStyle>
+				<ReadOnly>false</ReadOnly>
+				<Points>
+					<Point>
+						<X>24.682886802740793</X>
+						<Y>46.56145026400477</Y>
+					</Point>
+					<Point>
+						<X>24.832473870358196</X>
+						<Y>46.8003054893055</Y>
+					</Point>
+					<Point>
+						<X>24.66292826527741</X>
+						<Y>46.93483314493465</Y>
+					</Point>
+					<Point>
+						<X>24.51563557423413</X>
+						<Y>46.67401422075569</Y>
+					</Point>
+				</Points>
+			</GISRegion>
+		</Presentation>
 	</GISMap>
 </Presentation>
